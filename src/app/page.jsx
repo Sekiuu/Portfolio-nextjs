@@ -3,19 +3,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="y-[5em]">
-      <section className="flex px-[15em] pt-[10em] w-full justify-center bg-white shadow-lg">
+    <div>
+      <section className="flex xl:px-[15em] px-[1em] pt-[10em] w-full justify-center bg-white shadow-lg">
         <div className="flex justify-between items-center max-w-[1024px]">
-          <div className="hover:cursor-default overflow-hidden min-w-[516px]">
+          <div className="hover:cursor-default overflow-hidden min-w-[516px] transform max-[1024px]:scale-75 ">
             <h3 className="text-2xl mb-5 pl-2 hover:font-bold hover:transition-all transition-all">ผู้กำกับ | ผู้กำกับภาพ</h3>
             <h1 className="text-8xl">มุนินทร <br /> ดรลิเคน</h1>
             <h3 className="text-2xl my-5 pl-2">
               ผู้กำกับมือสมัครเล่น <br /> รักในการถ่ายภาพ และเป็นผู้ร่วมก่อตั้ง E-motion
             </h3>
           </div>
-          <div className="overflow-hidden mt-[-5em] max-w-[512px] w-[40%]"> {/* Container for the Image */}
+          <div className="overflow-hidden max-w-[512px] w-full"> {/* Container for the Image */}
             <Image
-              className="transform hover:scale-110 transition-transform duration-300 w-full max-w-[512px]"
+              className="transform hover:scale-110 transition-transform duration-300 w-full"
               src="/images/me02-croped.png"
               alt="My Picture"
               width={720}

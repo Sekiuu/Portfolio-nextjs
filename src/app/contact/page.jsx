@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 function ContactPage() {
   return (
-    <div className='flex flex-col items-center justify-center py-[5em]  text-white'>
+    <div className='flex flex-col items-center justify-center py-[10em] text-white xl:h-auto h-[1024px]'>
       <h1 className='text-8xl mb-[1em]'>Contact Me</h1>
       <div className='w-3/5 flex flex-row justify-center items-center'>
         <Image src="/images/28781.jpg" alt='my picture' width={300} height={300} className='rounded-xl'/>
