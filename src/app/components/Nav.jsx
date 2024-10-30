@@ -3,7 +3,7 @@ import Link from 'next/link'
 function Nav() {
   return (
     <div>
-      <nav className='flex bg-teal-900 text-white py-5 px-[15em] justify-between shadow-md'>
+      <nav className='text-2xl flex bg-teal-900 text-white py-5 px-[8em] justify-between shadow-md'>
         <div className='hover:underline hover:cursor-pointer'><Link href='/'> Home</Link></div>
         <ul className='flex space-x-10'>
           <li className='hover:underline hover:cursor-pointer'><Link href='/about'> About</Link></li>
