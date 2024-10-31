@@ -8,7 +8,7 @@ export default function Home() {
         <div className="flex justify-between items-center max-w-[1024px]">
           <div className="hover:cursor-default overflow-hidden min-w-[516px] transform max-[1024px]:scale-75 ">
             <h3 className="text-2xl mb-5 pl-2 hover:font-bold hover:transition-all transition-all">ผู้กำกับ | ผู้กำกับภาพ</h3>
-            <h1 className="text-8xl">มุนินทร <br /> ดรลิเคน</h1>
+            <h1 className="text-8xl">มุนินทร <br /> ดรลิเคนs</h1>
             <h3 className="text-2xl my-5 pl-2">
               ผู้กำกับมือสมัครเล่น <br /> รักในการถ่ายภาพ และเป็นผู้ร่วมก่อตั้ง E-motion
             </h3>
