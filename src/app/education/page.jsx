@@ -36,8 +36,12 @@ function EducationPage() {
         </div>
         <p className='text-center text-xl text-white'>&quot;ได้รับใบประกาศนียบัตร ความเป็นเลิศด้านวิชาการ สองปีซ้อน&quot;</p>
       </section>
-      <section className='w-[90%] mx-auto border-t-2 border-gray-400'>
-        <Link href="https://drive.google.com/drive/u/0/folders/1BRHMqIxEJ-TAYVrCi7RyApcLX2I7ofSQ"><h1 className='text-4xl'>Transctiption</h1></Link>
+      <section className='text-white w-[90%] h-[124px] mx-auto border-t-2 border-gray-400 flex justify-center items-center flex-col'>
+        <Link href="https://drive.google.com/drive/u/0/folders/1BRHMqIxEJ-TAYVrCi7RyApcLX2I7ofSQ" target="_blank"
+        className='bg-zinc-600 p-2 rounded-lg'>
+        <h1 className='text-4xl'>Transcription</h1>
+        </Link>
+        <p className='text-zinc-600'>click to see Transcription</p>
       </section>
     </div>
   )

@@ -13,20 +13,20 @@ function AboutPage() {
               ชื่อ : นายมุนินทร ดรลิเคน <br className='xl:hidden' /> วันเกิด : 12 กรกฎาคม 2006
               <br />เชื้อชาติ : ไทย | สัญชาติ : ไทย
             </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sapiente molestias iste magni
-              rem optio quia ducimus excepturi ex labore, aliquid corporis facere nam distinctio earum dolorem!
-              Eius, perferendis accusantium?</p>
+            <p>
+              และประสบการณ์ของกระผม
+              กระผมเริ่มต้นความสนใจในเทคโนโลยีและการเขียนโปรแกรมจากการเล่นเกม ซึ่งในวัยเด็ก เกมไม่ใช่แค่ความบันเทิงสำหรับกระผม แต่เป็นแรงบันดาลใจที่ทำให้กระผมตั้งคำถามว่า
+              “สิ่งที่อยู่เบื้องหลังเกมเหล่านี้คืออะไร?” และ “เราจะสร้างเกมขึ้นมาเองได้อย่างไร?” ด้วยความคิดที่ว่าการเขียนโปรแกรมคือสิ่งมหัศจรรย์ เพราะสามารถสร้างสิ่งที่มาจากความคิดและจินตนาการให้เป็นรูปธรรม
+              และนำไปใช้ประโยชน์ได้ทำให้กระผมเริ่มสนใจคอมพิวเตอร์และเทคโนโลยีตั่งแต่นั้นเป็นต้นมา
+            </p>
             <br />
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sapiente molestias iste magni
-              rem optio quia ducimus excepturi ex labore, aliquid corporis facere nam distinctio earum dolorem!
-              Eius, perferendis accusantium?
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sapiente molestias iste magni
-              rem optio quia ducimus excepturi ex labore, aliquid corporis facere nam distinctio earum dolorem!
-              Eius, perferendis accusantium?
+            <p> กระผมมีประสบการณ์ในการเขียนเว็บไซต์ และ สร้างเกม อีกทั้งยังได้เข้าร่วมการแข่งขันเขียนโปรแกรมควบคุมหุ่นยนต์ตั้งแต่อายุ 13 ปี การแข่งขันเหล่านี้ไม่เพียงแต่ทดสอบความสามารถทางเทคนิค
+              แต่ยังสอนให้กระผมรู้จักการทำงานเป็นทีม การแก้ปัญหาเชิงสร้างสรรค์ และการปรับตัวในสถานการณ์ต่าง ๆ นอกจากนี้ กระผมยังมีความสนใจและหมั่นศึกษาเกี่ยวกับคณิตศาสตร์ และ
+              เคยได้รับรางวัลโครงงานคณิตศาสตร์ประยุกต์สร้างสรรค์อันดับที่11ของประเทศ ซึ่งเป็นพื้นฐานสำคัญสำหรับการพัฒนาเทคโนโลยีสารสนเทศ
             </p>
           </div>
-          <Image src="/images/about-profile.jpg" alt='my photo' width={512} height={512} 
-          className='max-w-[512px] min-w-[116px] max-h-[512px] aspect-[2/3] object-cover xl:w-auto w-1/2 mt-[5em]
+          <Image src="/images/about-profile.jpg" alt='my photo' width={512} height={512}
+            className='max-w-[512px] min-w-[116px] max-h-[512px] aspect-[2/3] object-cover xl:w-auto w-1/2 mt-[5em]
           rounded-[24px] xl:mt-auto' />
         </div>
       </div>
