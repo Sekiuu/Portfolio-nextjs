@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`bg-gradient-to-b from-teal-800 via-slate-800 to-slate-800 ${kanit.className}`}>
+      <body className={`bg-zinc-800 ${kanit.className}`}>
         <Nav/>
         {children}
         <Footer/>

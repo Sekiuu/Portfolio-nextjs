@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className='h-[256px] bg-slate-800 bottom-0 py-[5em]'>
+    <footer className='h-[256px] bg-zinc-900 bottom-0 py-[5em] border-t-2 border-zinc-500'>
       <div className='xl:px-[10em] text-white flex  justify-around items-center'>
         <h1 className='xl:text-3xl text-xl'>&#64; Contact</h1>
         <div className='flex justify-between space-x-10'>
@@ -14,7 +14,7 @@ function Footer() {
         <hr className='border-[2px] xl:w-3/4 w-[90%]' />
       </div>
       <p className="text-white xl:px-[15em] px-[3em] pt-5">
-      &copy; 2024 ภูมิใจสร้างสรรค์โดย นายมุนินทร ร่วมออกแบบโดย นางสาวรัตน์ฐาภัทร
+      &copy; 2024 ภูมิใจสร้างสรรค์โดย นายมุนินทร ร่วมออกแบบ นางสาวรัตน์ฐาภัทร
       </p>
     </footer>
   )

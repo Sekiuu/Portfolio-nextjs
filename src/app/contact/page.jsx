@@ -2,9 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 function ContactPage() {
   return (
-    <div className='flex flex-col items-center justify-center py-[10em] text-white xl:h-auto h-[1024px]'>
-      <h1 className='text-8xl mb-[1em]'>Contact Me</h1>
-      <div className='w-3/5 flex flex-row justify-center items-center'>
+    <div className='py-[5em] text-white xl:h-auto'>
+      <h1 className='text-8xl mb-[0.2em] mx-auto w-fit'>ติดต่อเรา</h1>
+      <div className='w-3/5 flex flex-row justify-center items-center border-t-2 border-gray-200 py-[3em] mx-auto'>
         <Image src="/images/28781.jpg" alt='my picture' width={300} height={300} className='rounded-xl'/>
         <div className='ml-[3em] space-y-5 text-2xl'>
           <div className='flex flex-row space-x-5 items-center'>

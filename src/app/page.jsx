@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <section className="flex xl:px-[15em] px-[1em] pt-[10em] w-full justify-center bg-white shadow-lg">
+      <section className="flex xl:px-[15em] px-[1em] pt-[3.5em] w-full justify-center bg-white shadow-lg">
         <div className="flex justify-between items-center max-w-[1024px]">
           <div className="hover:cursor-default overflow-hidden min-w-[516px] transform max-[1024px]:scale-75 ">
             <h3 className="text-2xl mb-5 pl-2 hover:font-bold hover:transition-all transition-all">ผู้กำกับ | ผู้กำกับภาพ</h3>

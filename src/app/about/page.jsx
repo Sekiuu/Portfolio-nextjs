@@ -3,10 +3,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 function AboutPage() {
   return (
-    <div className='flex justify-center xl:mx-[15em] mx-[10em] pt-[5em] text-white xl:h-auto h-[1366px]'>
-      <div className='max-w-[1024px] py-[5em]'>
+    <div className='flex justify-center xl:mx-[15em] mx-[10em] py-[5em] text-white xl:h-auto'>
+      <div className='max-w-[1024px]'>
         <h1 className='text-8xl  hover:cursor-default xl:text-left text-center'>ประวัติส่วนตัว</h1>
-        <div className='my-10 flex xl:flex-row flex-col xl:justify-between justify-center items-center hover:cursor-default'>
+        <div className='my-5 pt-5 flex xl:flex-row flex-col xl:justify-between justify-center items-center hover:cursor-default
+         border-t-2 border-gray-200'>
           <div className='xl:mr-[5em] xl:text-left text-center w-full max-w-[1024px] min-w-[164px]'>
             <div className='w-full text-xl mb-5'>
               ชื่อ : นายมุนินทร ดรลิเคน <br className='xl:hidden' /> วันเกิด : 12 กรกฎาคม 2006
