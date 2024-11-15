@@ -3,7 +3,7 @@ import Image from 'next/image';
 function ContactPage() {
   return (
     <div className='py-[5em] text-white xl:h-auto'>
-      <h1 className='text-8xl mb-[0.2em] mx-auto w-fit'>ติดต่อเรา</h1>
+      <h1 className='text-8xl mb-[0.2em] mx-auto w-fit'>ข้อมูลการติดต่อ</h1>
       <div className='w-3/5 flex flex-row justify-center items-center border-t-2 border-gray-200 py-[3em] mx-auto'>
         <Image src="/images/28781.jpg" alt='my picture' width={300} height={300} className='rounded-xl'/>
         <div className='ml-[3em] space-y-5 text-2xl'>

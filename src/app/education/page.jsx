@@ -4,8 +4,8 @@ import Link from 'next/link'
 function EducationPage() {
   return (
     <div className='py-[5em] pb-[10em]'>
-      <h1 className='text-8xl mx-[2em] text-white'>ประวัติการศึกษา</h1>
-      <section className='my-5 border-t-2 border-gray-200 mx-[10em]'>
+      <h1 className='text-8xl mx-[3em] text-white'>ประวัติการศึกษา</h1>
+      <section className='my-5 border-t-2 border-gray-200 mx-[15em]'>
         <div className='flex items-center justify-between w-full px-10 mx-auto h-[212px] border-b-2 border-gray-500'>
           <div className='bg-slate-950 shadow-lg p-5 rounded-[100px] h-[164px] w-[164px] flex justify-center items-center'>
             <Image src="/images/edu/kanarat-logo.png" width={216} height={216} alt='Kanaratbumrungpathumtani' />
@@ -28,7 +28,7 @@ function EducationPage() {
         </div>
       </section>
       <hr className='w-[90%] mx-auto border-t-2 border-gray-400'/>
-      <section className='py-10 mt-[5em] mx-[10em]'>
+      <section className='py-10 mt-[5em] mx-[15em]'>
         <h1 className="mx-auto w-fit text-5xl text-white">ใบประกาศนียบัตร</h1>
         <div className='flex space-x-10 justify-center py-5 mt-10 border-t-2 border-gray-300'>
           <Image src='/images/edu/ExAc-cer/excellent academic66.jpg' width={516} height={516} alt='excellent academic 66' />
