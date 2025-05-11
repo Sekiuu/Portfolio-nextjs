@@ -14,7 +14,7 @@ function Footer() {
         <hr className='border-[2px] xl:w-3/4 w-[90%]' />
       </div>
       <p className="text-white xl:px-[15em] px-[3em] pt-5">
-      &copy; 2024 ภูมิใจสร้างสรรค์โดย นายมุนินทร ร่วมออกแบบ นางสาวรัตน์ฐาภัทร
+      &copy; 2024 ภูมิใจสร้างสรรค์โดย muninthon
       </p>
     </footer>
   )
