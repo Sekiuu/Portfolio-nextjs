@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 function Banner() {
     return (
-        <section className="flex xl:px-[15em]  px-[1em] py-[3.5em] w-full justify-center shadow-lg text-white lg:aspect-video aspect-square">
+        <section className="flex xl:px-[15em]  px-[1em] py-[3.5em] w-full justify-center shadow-lg text-white lg:aspect-video aspect-square z-0">
+            {/* bg */}
             <Image
                 src={"/images/bg_myport.png"}
                 alt="bg"
