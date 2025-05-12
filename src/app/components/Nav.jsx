@@ -22,7 +22,7 @@ function Nav() {
   const inactiveClass = "border-greenL hover:underline hover:cursor-pointer";
 
   return (
-    <nav className="xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] overflow-hidden absolute">
+    <nav className="z-10 xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] absolute">
       {/* bg */}
       <div className="absolute bg-greenN opacity-10 w- h-full w-full -z-20" />
       {/* LOGO */}
@@ -36,7 +36,7 @@ function Nav() {
 
       {/* MENU ICON */}
       <button
-        className="w-[150px] hover:cursor-pointer float-right max-lg:flex justify-center hidden "
+        className="px-5 hover:cursor-pointer float-right max-lg:flex justify-center hidden "
         onClick={() => {
           setOpenMenu(!openMenu);
           console.log(openMenu);
@@ -50,26 +50,21 @@ function Nav() {
         />
       </button>
       {/* NAV BAR */}
-      {/* navbar backrdrop */}
       <ul
-        className={`text-center z-40 flex max-lg:transition-all max-lg:duration-500 max-lg:ease-in-out transform max-lg:inset-0 max-lg:fixed max-lg:flex-col items-center justify-center max-lg:space-y-10  ${
-          openMenu
-            ? "max-lg:translate-y-0 max-lg:opacity-100"
-            : "max-lg:-translate-y-full max-lg:opacity-0 max-lg:pointer-events-none"
-        }`}
+        className={`text-center mx-5 z-40 flex max-lg:transition-all max-lg:duration-500 transform max-lg:inset-0 max-lg:fixed max-lg:flex-col items-center justify-center max-lg:space-y-10  ${openMenu
+          ? "max-lg:translate-y-0 max-lg:opacity-100"
+          : "max-lg:-translate-y-full max-lg:opacity-0 max-lg:pointer-events-none"
+          }`}
       >
-        {openMenu ? (
-          <div
-            className="absolute bg-dark1 opacity-80 w- h-full w-full -z-10"
-            onClick={() => setOpenMenu(false)}
-          />
-        ) : (
-          ""
-        )}
+        {/* navbar backrdrop */}
+        <div
+          className="fixed inset-0 -z-10 bg-dark1/50 backdrop-blur-md"
+          onClick={() => setOpenMenu(false)}
+        />
         <Link
           href="/"
-          className={`flex justify-center p-5 max-lg:w-full w-[150px] space-x-5 max-lg:border-b-1
-           ${pathname == "/" ? activeClass : inactiveClass}`}
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+             ${pathname == "/" ? activeClass : inactiveClass}`}
         >
           <Image
             src="/images/icon/nav/home.png"
@@ -81,7 +76,7 @@ function Nav() {
         </Link>
         <Link
           href="/skills"
-          className={`flex justify-center p-5 max-lg:w-full w-[150px] space-x-5 max-lg:border-b-1
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
            ${pathname == "/skills" ? activeClass : inactiveClass}`}
         >
           <Image
@@ -94,7 +89,7 @@ function Nav() {
         </Link>
         <Link
           href="/contact"
-          className={`flex justify-center p-5 max-lg:w-full w-[150px] space-x-5 max-lg:border-b-1
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
            ${pathname == "/contact" ? activeClass : inactiveClass}`}
         >
           <Image

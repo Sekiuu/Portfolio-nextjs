@@ -19,9 +19,9 @@ function SkillsPage() {
 
   return (
     <section className="flex max-lg:flex-col w-full py-[10%] px-[1em] lg:justify-around">
-      <div className="lg:w-1/2 flex flex-col space-y-10 px-[3em] py-10">
+      <div className="lg:w-1/2 flex flex-col space-y-10 md:px-[3em] py-10">
         <h1 className="text-center text-white text-3xl font-bold">Skills</h1>
-        <div className="grid grid-cols-3 max-lg:grid-cols-6 gap-x-[5em] gap-y-[3em] w-fit mx-auto text-gray-300">
+        <div className="grid grid-cols-3 max-lg:grid-cols-6 max-sm:grid-cols-3 gap-x-5 gap-y-5 mx-auto text-gray-300">
           {skillsData.map((data) => (
             <div
               key={data.id}
@@ -37,7 +37,7 @@ function SkillsPage() {
         </div>
       </div>
 
-      <div className="flex flex-col space-y-10 px-[3em] py-10 lg:w-1/2">
+      <div className="flex flex-col space-y-10 md:px-[3em] py-10 lg:w-1/2">
         <h1 className="text-center text-white text-3xl font-bold">
           Discription
         </h1>
