@@ -22,7 +22,7 @@ function Nav() {
   const inactiveClass = "border-greenL hover:underline hover:cursor-pointer";
 
   return (
-    <nav className="z-10 xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] absolute">
+    <nav className="h-[10%] z-10 xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] absolute">
       {/* bg */}
       <div className="absolute bg-greenN opacity-10 w- h-full w-full -z-20" />
       {/* LOGO */}
@@ -31,12 +31,12 @@ function Nav() {
         src={"/images/MUNIN_logo.svg"}
         width={64}
         height={64}
-        className="mx-5 my-auto"
+        className="mx-5 my-auto h-[80%]"
       />
 
       {/* MENU ICON */}
       <button
-        className="px-5 hover:cursor-pointer float-right max-lg:flex justify-center hidden "
+        className="px-5 hover:cursor-pointer float-right max-lg:flex justify-center hidden h-[80%]"
         onClick={() => {
           setOpenMenu(!openMenu);
           console.log(openMenu);
@@ -49,18 +49,20 @@ function Nav() {
           height={64}
         />
       </button>
+
+      {/* navbar backdrop */}
+      {openMenu ? <div
+        className="fixed inset-0 z-30 bg-dark1/50 backdrop-blur-md"
+      /> : ""}
+
       {/* NAV BAR */}
       <ul
         className={`text-center mx-5 z-40 flex max-lg:transition-all max-lg:duration-500 transform max-lg:inset-0 max-lg:fixed max-lg:flex-col items-center justify-center max-lg:space-y-10  ${openMenu
           ? "max-lg:translate-y-0 max-lg:opacity-100"
           : "max-lg:-translate-y-full max-lg:opacity-0 max-lg:pointer-events-none"
           }`}
+        onClick={() => setOpenMenu(false)}
       >
-        {/* navbar backrdrop */}
-        <div
-          className="fixed inset-0 -z-10 bg-dark1/50 backdrop-blur-md"
-          onClick={() => setOpenMenu(false)}
-        />
         <Link
           href="/"
           className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110

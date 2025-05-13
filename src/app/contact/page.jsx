@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { personal_data } from "../datas/data.js";
 function ContactPage() {
   return (
     <div className="py-[120px] text-white xl:h">
@@ -7,7 +8,7 @@ function ContactPage() {
         ข้อมูลการติดต่อ
       </h1>
       <div className="min-[375px]:w-4/5 w-[90%] grid md:grid-cols-2 border-t-2 border-gray-200 pt-10 mx-auto space-y-5 text-xl lg:text-2xl">
-        <div className="flex space-x-5 items-center">
+        <a target="blank" href={`tel:${personal_data.tel}`} className="flex space-x-5 items-center">
           <Image
             src="/images/icon/calling.png"
             alt="my picture"
@@ -16,8 +17,8 @@ function ContactPage() {
             className="w-[46px]"
           />
           <p>092-985-3209</p>
-        </div>
-        <div className="flex space-x-5 items-center">
+        </a>
+        <a href={`mailto:${personal_data.gmail}`} className="flex space-x-5 items-center">
           <Image
             src="/images/icon/mail.png"
             alt="my picture"
@@ -26,8 +27,8 @@ function ContactPage() {
             className="w-[46px]"
           />
           <p>sega.pamma@gmail.com</p>
-        </div>
-        <div className="flex  space-x-5 items-center">
+        </a>
+        <a target="blank" href={personal_data.ig} className="flex  space-x-5 items-center">
           <Image
             src="/images/icon/ig.png"
             alt="my picture"
@@ -35,11 +36,11 @@ function ContactPage() {
             height={64}
             className="w-[46px]"
           />
-          <a href="https://www.instagram.com/iwant2b_ur.puppy/" target="_blank">
+          <p>
             Instragram
-          </a>
-        </div>
-        <div className="flex space-x-5 items-center">
+          </p>
+        </a>
+        <a target="blank" href={personal_data.git} className="flex space-x-5 items-center">
           <Image
             src="/images/icon/git.png"
             alt="my picture"
@@ -47,10 +48,10 @@ function ContactPage() {
             height={64}
             className="w-[46px]"
           />
-          <a href="https://github.com/Sekiuu" target="_blank">
+          <p>
             GitHub
-          </a>
-        </div>
+          </p>
+        </a>
       </div>
     </div>
   );

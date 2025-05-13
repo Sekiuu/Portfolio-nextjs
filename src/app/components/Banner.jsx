@@ -12,7 +12,7 @@ function Banner() {
             />
             <div className="flex justify-between items-center text-center">
                 <div className="hover:cursor-default overflow-hidden transform max-[1024px]:scale-75 space-y-10 ">
-                    <h1 className="md:text-8xl text-5xl">มุนินทร ดรลิเคน</h1>
+                    <h1 className="md:text-8xl max-sm:text-4xl text-5xl">มุนินทร ดรลิเคน</h1>
                     <h3 className="md:text-2xl my-5 hover:font-bold hover:transition-all transition-all">
                         Front-end | Game-Dev
                     </h3>

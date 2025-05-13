@@ -1,3 +1,9 @@
+export const personal_data = {
+    tel:'0929853209',
+    gmail:'sega.pamma@gmail.com',
+    git:'https://github.com/Sekiuu',
+    ig:'https://www.instagram.com/isxs.eay/',
+}
 export const works_port = [
     {
         id: 0,
