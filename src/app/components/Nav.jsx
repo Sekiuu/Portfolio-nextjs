@@ -65,7 +65,7 @@ function Nav() {
       >
         <Link
           href="/"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
              ${pathname == "/" ? activeClass : inactiveClass}`}
         >
           <Image
@@ -78,7 +78,7 @@ function Nav() {
         </Link>
         <Link
           href="/skills"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
            ${pathname == "/skills" ? activeClass : inactiveClass}`}
         >
           <Image
@@ -91,7 +91,7 @@ function Nav() {
         </Link>
         <Link
           href="/contact"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
            ${pathname == "/contact" ? activeClass : inactiveClass}`}
         >
           <Image
