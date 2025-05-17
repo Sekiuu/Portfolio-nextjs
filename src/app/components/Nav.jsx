@@ -63,7 +63,7 @@ function Nav() {
       >
         <Link
           href="/"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 rounded-md
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
              ${pathname == "/" ? activeClass : inactiveClass}`}
         >
           <Image
@@ -75,9 +75,9 @@ function Nav() {
           <h2>Home</h2>
         </Link>
         <Link
-          href="/services"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 rounded-md
-           ${pathname == "/services" ? activeClass : inactiveClass}`}
+          href="/skills"
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+           ${pathname == "/skills" ? activeClass : inactiveClass}`}
         >
           <Image
             src="/images/icon/nav/work.png"
@@ -89,7 +89,7 @@ function Nav() {
         </Link>
         <Link
           href="/contact"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 rounded-md
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
            ${pathname == "/contact" ? activeClass : inactiveClass}`}
         >
           <Image
