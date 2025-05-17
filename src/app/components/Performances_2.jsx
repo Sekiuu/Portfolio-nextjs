@@ -26,7 +26,7 @@ function Performances_2() {
         works_futureSkill,
         "future skill workshops",
         "rounded-[24px] max-lg:my-10 shadow-xl bg-blend-lighten shadow-greenL transform hover:scale-[120%] transition-all duration-300",
-        "lg:gap-[10%] max-lg:flex max-lg:flex-col max-lg:w-full px-10 justify-center items-center",
+        "gap-[10%] max-md:grid-cols-1 max-lg:w-full px-10 justify-center items-center",
       )}
       {/* grid - cer */}
       {GridSection(
