@@ -20,7 +20,7 @@ function Nav() {
     const scrollhanddle = () => {
       const scr = window.scrollY
       console.log(scr)
-      setShowLogo(scr < 80)
+      setShowLogo(scr < 64)
     }
     scrollhanddle()
     window.addEventListener('scroll',scrollhanddle)
@@ -40,7 +40,7 @@ function Nav() {
         src={"/images/MUNIN_logo.svg"}
         width={64}
         height={64}
-        className={`mx-5 my-auto h-[80%] ${showLogo? '' : 'hidden'}`}
+        className={`mx-5 my-auto h-[90%] transition-all transform ${showLogo? 'translate-y-0' : '-translate-y-[64px]'}`}
       />
 
       {/* MENU ICON */}
