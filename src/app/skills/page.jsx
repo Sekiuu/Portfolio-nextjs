@@ -18,7 +18,7 @@ function SkillsPage() {
   //--
 
   return (
-    <section className="flex max-lg:flex-col w-full py-[10%] px-[1em] lg:justify-around">
+    <section className="flex max-lg:flex-col w-full max-w-[720px] py-5 px-5 lg:justify-around mx-auto">
       <div className="lg:w-1/2 flex flex-col space-y-10 md:px-[3em] py-10">
         <h1 className="text-center text-white text-3xl font-bold">Skills</h1>
         <div className="grid grid-cols-3 max-lg:grid-cols-6 max-sm:grid-cols-3 gap-x-5 gap-y-5 mx-auto text-gray-300">

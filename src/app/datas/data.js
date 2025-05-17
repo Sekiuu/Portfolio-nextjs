@@ -1,8 +1,35 @@
+export const Services_data = [
+  {
+    title: 'Landing Page',
+    description: 'ออกแบบและสร้างหน้าเว็บหน้าเดียวที่ดูดี มีสไตล์ รองรับทุกหน้าจอ เหมาะกับโปรโมตสินค้า/บริการแบบสั้นๆ จบในหน้าเดียว',
+    minCost: '1,000',
+    maxCost: '2,000',
+  },
+  {
+    title: 'Personal Website',
+    description: 'เว็บส่วนตัวหรือบล็อกเขียนบทความ แสดงผลงาน หรือแนะนำตัวเอง สร้างด้วย Next.js รองรับ SEO และใช้งานง่าย',
+    minCost: '1,000',
+    maxCost: '3,000',
+  },
+  {
+    title: 'Convert Design to Webpage',
+    description: 'แปลงดีไซน์จาก Figma, XD หรือภาพตัวอย่าง ให้กลายเป็นหน้าเว็บจริง พร้อม responsive รองรับทุกอุปกรณ์',
+    minCost: '1,000',
+    maxCost: '3,000',
+  },
+  {
+    title: 'Commercial Website',
+    description: 'เว็บไซต์สำหรับบริษัทหรือธุรกิจขนาดเล็ก เช่น บริษัทรับเหมา คลินิก ร้านอาหาร ประกอบด้วยหลายหน้า เช่น เกี่ยวกับเรา, บริการ, ติดต่อ ฯลฯ รองรับทุกหน้าจอ มีความน่าเชื่อถือ',
+    minCost: '3,000',
+    maxCost: '6,000',
+  },
+];
+
 export const personal_data = {
-    tel:'0929853209',
-    gmail:'sega.pamma@gmail.com',
-    git:'https://github.com/Sekiuu',
-    ig:'https://www.instagram.com/isxs.eay/',
+    tel: '0929853209',
+    gmail: 'sega.pamma@gmail.com',
+    git: 'https://github.com/Sekiuu',
+    ig: 'https://www.instagram.com/isxs.eay/',
 }
 export const works_port = [
     {

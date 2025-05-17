@@ -22,9 +22,7 @@ function Nav() {
   const inactiveClass = "border-greenL hover:underline hover:cursor-pointer";
 
   return (
-    <nav className="h-[10%] z-10 xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] absolute">
-      {/* bg */}
-      <div className="absolute bg-greenN opacity-10 w- h-full w-full -z-20" />
+    <nav className="h-[10%] z-10 xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] bg-greenN/10 max-md:fixed">
       {/* LOGO */}
       <Image
         alt="logo"
@@ -65,7 +63,7 @@ function Nav() {
       >
         <Link
           href="/"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 rounded-md
              ${pathname == "/" ? activeClass : inactiveClass}`}
         >
           <Image
@@ -77,9 +75,9 @@ function Nav() {
           <h2>Home</h2>
         </Link>
         <Link
-          href="/skills"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
-           ${pathname == "/skills" ? activeClass : inactiveClass}`}
+          href="/services"
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 rounded-md
+           ${pathname == "/services" ? activeClass : inactiveClass}`}
         >
           <Image
             src="/images/icon/nav/work.png"
@@ -87,11 +85,11 @@ function Nav() {
             height={32}
             className="object-cover aspect-square"
           />
-          <h2>Skills</h2>
+          <h2>Services</h2>
         </Link>
         <Link
           href="/contact"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 rounded-md
            ${pathname == "/contact" ? activeClass : inactiveClass}`}
         >
           <Image
