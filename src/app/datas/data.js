@@ -30,6 +30,7 @@ export const personal_data = {
     gmail: 'sega.pamma@gmail.com',
     git: 'https://github.com/Sekiuu',
     ig: 'https://www.instagram.com/isxs.eay/',
+    name: 'm-dev'
 }
 export const works_port = [
     {

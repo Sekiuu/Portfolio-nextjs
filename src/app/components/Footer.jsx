@@ -81,7 +81,7 @@ function Footer() {
         </div>
       </div>
 
-    <p className="grid col-span-2 max-md:py-10 text-[1pm] max-sm:text-center"> &#169; created by muninthon 2024</p>
+    <p className="grid col-span-2 max-md:py-10 text-[1pm] max-sm:text-center"> &#169; created by m-dev 2024</p>
   </footer>;
 }
 
