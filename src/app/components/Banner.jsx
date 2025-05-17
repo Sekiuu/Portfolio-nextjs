@@ -9,10 +9,10 @@ function Banner() {
                 alt="bg"
                 width={1440}
                 height={1024}
-                className="-z-40 absolute blur-sm"
+                className="-z-40 absolute blur-sm object-cover h-full"
             />
             <div className="flex justify-between items-center text-center">
-                <div className="hover:cursor-default overflow-hidden space-y-10 ">
+                <div className="hover:cursor-default overflow-hidden md:space-y-10 max-md:pt-10">
                     <h1 className="md:text-8xl max-sm:text-4xl text-5xl">มุนินทร ดรลิเคน</h1>
                     <h3 className="md:text-2xl my-5 hover:font-bold hover:transition-all transition-all">
                         Front-end | Game-Dev
