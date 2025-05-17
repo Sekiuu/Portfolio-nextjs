@@ -11,11 +11,11 @@ function Footer() {
         src={"/images/MUNIN_logo.svg"}
         width={128}
         height={128}
-        className="my-2"
+        className="my-2 max-sm:hidden"
       />
     </div>
 
-    <div className="flex md:justify-end justify-center max-md:col-span-2 max-md:items-center">
+    <div className="flex md:justify-end justify-center max-md:col-span-2 max-md:items-center  max-sm:hidden">
       <div className="flex flex-col items-center space-y-2 text-2xl">
         <h1>- NAVIGATION -</h1>
         <div className="flex flex-col space-y-2 text-greenD2">

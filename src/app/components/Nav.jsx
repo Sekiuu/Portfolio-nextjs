@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 function Nav() {
   const [openMenu, setOpenMenu] = useState(false);
+  const [showLogo,setShowLogo] = useState(true);
   const [lastPathname, setLastPathname] = useState("");
   const pathname = usePathname();
 
@@ -14,6 +15,16 @@ function Nav() {
       setOpenMenu(false);
     }
     setLastPathname(pathname);
+
+    //show logo update
+    const scrollhanddle = () => {
+      const scr = window.scrollY
+      console.log(scr)
+      setShowLogo(scr < 80)
+    }
+    scrollhanddle()
+    window.addEventListener('scroll',scrollhanddle)
+    return()=> window.removeEventListener('scroll',scrollhanddle)
   });
 
   // Define the active class for the glowing effect
@@ -29,12 +40,12 @@ function Nav() {
         src={"/images/MUNIN_logo.svg"}
         width={64}
         height={64}
-        className="mx-5 my-auto h-[80%]"
+        className={`mx-5 my-auto h-[80%] ${showLogo? '' : 'hidden'}`}
       />
 
       {/* MENU ICON */}
       <button
-        className="px-5 hover:cursor-pointer float-right max-lg:flex justify-center hidden h-[80%]"
+        className=" bg-dark1/50 rounded-xl hover:cursor-pointer max-lg:flex fixed md:h-[10%] h-[48px] right-2 justify-center hidden"
         onClick={() => {
           setOpenMenu(!openMenu);
           console.log(openMenu);
