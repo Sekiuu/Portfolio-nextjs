@@ -1,25 +1,67 @@
+export const Features = [
+    {
+        title: 'Responsive Design',
+        des: 'รองรับได้หลายอุปกรณ์ ทั้งมือถือ แท็บเล็ต และคอมพิวเตอร์',
+        img:''
+    },
+    {
+        title: 'Fast Loading',
+        des: 'เนื่องจากใช้ Next.js ในการพัฒนาเว็บไซต์ ทำให้เว็บเร็วปานสายฟ้า',
+        img:''
+    },
+    {
+        title: 'Design To Webpage',
+        des: 'แปลงไฟล์ .psd .ai และ Figma เป็น Webpage .jsx .html .css',
+        img:''
+    },
+    {
+        title: 'รองรับ SEO',
+        des: 'ใส่ข้อมูล metadata ช่วยให้ google หาเจอได้ง่ายขึ้น',
+        img:''
+    },
+    {
+        title: 'Deploy ฟรี',
+        des: 'Deploy ฟรีบน Vercel พร้อมใช้งานทันที',
+        img:''
+    },
+    {
+        title: 'เชื่อมต่อ Google Analytics',
+        des:'เชื่อมต่อ google analytics / search console ได้',
+        img:''
+    }
+]
 export const Services_data = [
-  {
-    title: 'Landing Page',
-    description: 'ออกแบบและสร้างหน้าเว็บหน้าเดียวที่ดูดี มีสไตล์ รองรับทุกหน้าจอ เหมาะกับโปรโมตสินค้า/บริการแบบสั้นๆ จบในหน้าเดียว',
-    minCost: '1,000',
-    maxCost: '2,000',
-    img:'/images/icon/services/landing-page.png'
-  },
-  {
-    title: 'Personal Website',
-    description: 'เว็บส่วนตัวหรือบล็อกเขียนบทความ แสดงผลงาน หรือ สำหรับธุรกิจส่วนตัว หรือแนะนำตัวเอง สร้างด้วย Next.js รองรับ SEO และใช้งานง่าย',
-    minCost: '1,000',
-    maxCost: '3,000',
-    img:'/images/icon/services/responsive-design.png'
-  },
-  {
-    title: 'Convert Design to Webpage',
-    description: 'แปลงดีไซน์จาก Figma, XD หรือภาพตัวอย่าง ให้กลายเป็นหน้าเว็บจริง พร้อม responsive รองรับทุกอุปกรณ์',
-    minCost: '1,000',
-    maxCost: '3,000',
-    img:'/images/icon/services/convert.png'
-  },
+    {
+        id:1,
+        title: 'Landing Page',
+        description_ful:'',
+        feature:['item','item','item'],
+        description: 'ออกแบบและสร้างหน้าเว็บหน้าเดียวที่ดูดี มีสไตล์ รองรับทุกหน้าจอ เหมาะกับโปรโมตสินค้า/บริการแบบสั้นๆ จบในหน้าเดียว',
+        minCost: '1,000',
+        maxCost: '2,000',
+        img: '/images/icon/services/landing-page.png',
+        include:['item','item','item','item']
+    },
+    {
+        id:2,
+        title: 'Personal Website',
+        description_ful:'',
+        feature:['item','item','item'],
+        description: 'เว็บส่วนตัวหรือบล็อกเขียนบทความ แสดงผลงาน หรือ สำหรับธุรกิจส่วนตัว หรือแนะนำตัวเอง สร้างด้วย Next.js รองรับ SEO และใช้งานง่าย',
+        minCost: '1,000',
+        maxCost: '3,000',
+        img: '/images/icon/services/responsive-design.png'
+    },
+    {
+        id:3,
+        title: 'Convert Design to Webpage',
+        description_ful:'',
+        feature:['item','item','item'],
+        description: 'แปลงดีไซน์จาก Figma, XD หรือภาพตัวอย่าง ให้กลายเป็นหน้าเว็บจริง พร้อม responsive รองรับทุกอุปกรณ์',
+        minCost: '1,000',
+        maxCost: '3,000',
+        img: '/images/icon/services/convert.png'
+    },
 ];
 //   {
 //     title: 'Website for Business',

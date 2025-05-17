@@ -9,7 +9,7 @@ function Banner() {
                 alt="bg"
                 width={1440}
                 height={1024}
-                className="-z-40 absolute blur-sm object-cover h-full"
+                className="-z-40 fixed inset-0 blur-sm"
             />
             <div className="flex justify-between items-center text-center">
                 <div className="hover:cursor-default overflow-hidden md:space-y-10 max-md:pt-10">
@@ -19,7 +19,7 @@ function Banner() {
                     </h3>
                     <h3 className="md:text-2xl text-xl my-5">
                         รับทำเว็บไซต์พื้นฐาน แปลงดีไซน์ให้เป็นเว็บสวย
-                        พร้อมลุยทุกโปรเจกต์ ไม่ว่าจะเล็กหรือใหญ่
+                        เว็บไซต์สำหรับธุรกิจขนาดเล็ก
                     </h3>
                 </div>
             </div>

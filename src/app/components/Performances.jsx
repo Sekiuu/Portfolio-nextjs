@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from 'react'
 import { GridSection } from "../function/unility.jsx";
 import { works_port, works_futureSkill, cer_fskill } from "../datas/data.js";
-function Performances_2() {
+function Performances() {
   return (
     <section className="py-[5em] bg-dark1 border-t-2 border-greenN text-greenL">
       <h1 className="text-center md:text-6xl text-4xl font-thin underline decoration-greenN">
@@ -41,4 +41,4 @@ function Performances_2() {
   )
 }
 
-export default Performances_2
+export default Performances
