@@ -3,11 +3,10 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import kanit from "./ThaiFont/Kanit";
 export const metadata = {
-  title: "Muninthon's portfolio",
-  description: "portfolio of muninthon donliken includes munin's performances and certificates , contact",
-  keyword: "portfolio"
+  title: 'รับทำเว็บไซต์ Landing Page และ Portfolio | mdev',
+  description: 'บริการออกแบบและพัฒนาเว็บไซต์ด้วย React, Next.js, Tailwind CSS ครบวงจร ทั้ง Landing Page, เว็บไซต์ส่วนตัว และเว็บบริษัท',
+  keywords: ['รับทำเว็บไซต์', 'landing page', 'portfolio website', 'personal website', 'React developer', 'Next.js', 'Tailwind CSS', 'responsive design', 'SEO friendly', 'ฟรีแลนซ์เขียนเว็บ'],
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

@@ -4,6 +4,13 @@ import SkillsPage from '../skills/page'
 import Image from 'next/image'
 import { Services_data } from '../datas/data'
 import { useState } from 'react'
+
+export const metadata = {
+  title: "Muninthon's Service",
+  description: "portfolio of muninthon donliken includes munin's performances and certificates , contact",
+  keyword: "portfolio"
+};
+
 function ServicesPage() {
   const [i, setIndex] = useState(null)
   return (
