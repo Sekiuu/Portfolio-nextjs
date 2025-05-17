@@ -63,7 +63,7 @@ function Nav() {
       >
         <Link
           href="/"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
              ${pathname == "/" ? activeClass : inactiveClass}`}
         >
           <Image
@@ -75,9 +75,15 @@ function Nav() {
           <h2>Home</h2>
         </Link>
         <Link
+<<<<<<< HEAD
+          href="/services"
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 rounded-md
+           ${pathname == "/services" ? activeClass : inactiveClass}`}
+=======
           href="/skills"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
            ${pathname == "/skills" ? activeClass : inactiveClass}`}
+>>>>>>> 78eb9ca83c24212436e3f3ded870b1495a776fdd
         >
           <Image
             src="/images/icon/nav/work.png"
@@ -89,7 +95,11 @@ function Nav() {
         </Link>
         <Link
           href="/contact"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110
+<<<<<<< HEAD
+          className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 rounded-md
+=======
+          className={`flex justify-center p-5 max-lg:mx-auto wl w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
+>>>>>>> 78eb9ca83c24212436e3f3ded870b1495a776fdd
            ${pathname == "/contact" ? activeClass : inactiveClass}`}
         >
           <Image
