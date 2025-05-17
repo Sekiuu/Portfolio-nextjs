@@ -22,7 +22,7 @@ function Nav() {
   const inactiveClass = "border-greenL hover:underline hover:cursor-pointer";
 
   return (
-    <nav className="h-[10%] z-10 xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] bg-greenN/10 max-md:fixed">
+    <nav className="md:h-[10%] h-[64px] z-10 xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] bg-greenN/10 max-md:fixed">
       {/* LOGO */}
       <Image
         alt="logo"
