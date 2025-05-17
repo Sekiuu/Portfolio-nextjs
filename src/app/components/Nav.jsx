@@ -75,9 +75,9 @@ function Nav() {
           <h2>Home</h2>
         </Link>
         <Link
-          href="/skills"
+          href="/services"
           className={`flex justify-center p-5 max-lg:mx-auto w-[150px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
-           ${pathname == "/skills" ? activeClass : inactiveClass}`}
+           ${pathname == "/services" ? activeClass : inactiveClass}`}
         >
           <Image
             src="/images/icon/nav/work.png"

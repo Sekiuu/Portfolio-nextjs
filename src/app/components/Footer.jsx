@@ -25,9 +25,9 @@ function Footer() {
             <h2>Home</h2>
           </Link>
           <Link
-            href="/skills"
+            href="/services"
             className="hover:text-greenL flex space-x-5 items-center">
-            <h2>Skill</h2>
+            <h2>Services</h2>
           </Link>
           <Link
             href="/contact"
