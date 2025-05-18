@@ -7,9 +7,9 @@ function Banner() {
             <Image
                 src={"/images/bg_myport.png"}
                 alt="bg"
-                width={1440}
-                height={1024}
-                className="-z-40 fixed inset-0 blur-sm"
+                width={2560}
+                height={1248}
+                className="-z-40 absolute inset-0 blur-sm"
             />
             <div className="flex justify-between items-center text-center">
                 <div className="hover:cursor-default overflow-hidden md:space-y-10 max-md:pt-10">

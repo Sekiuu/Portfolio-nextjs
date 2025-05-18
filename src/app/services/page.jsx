@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import SkillsPage from '../skills/page'
 import Image from 'next/image'
 import { Services_data } from '../datas/data'
 import { useState } from 'react'
@@ -28,16 +27,26 @@ function ServicesPage() {
             </div>
           </div>
         ))}
+        {/* specific skill */}
+        <div className='lg:col-span-3 col-span-1 bg-greenL rounded-xl flex justify-around p-3 max-sm:overflow-x-scroll'>
+          <Image src={"/images/icon/services/React.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
+          <Image src={"/images/icon/services/Next.js.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
+          <Image src={"/images/icon/services/TailwindCSS.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
+          <Image src={"/images/icon/services/JavaScript.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
+          <Image src={"/images/icon/services/HTML5.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
+        </div>
+        <div className='lg:col-span-3 col-span-1 bg-greenL rounded-xl text-center p-5'>
+          <h1 className='text-5xl text-dark1 mb-2'> Title </h1>
+          <p className='text-xl text-dark2/70 mb-10'> what the benefits of this frame work</p>
+          <div className='grid lg:grid-cols-2 grid-cols-1 mx-auto w-4/5 gap-x-[10%] gap-y-10 pb-10'>
+            <Image src={'/images/icon/no_img.svg'} alt='' width={720} height={720}
+              className='bg-white aspect-square w-3/4 mx-auto' />
+            <div>
+              <p className='text-dark2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, repellat. Reiciendis, ut! Enim totam quisquam minima! Inventore aliquam expedita repellat! Atque et veritatis quae velit animi labore minima nostrum ex.</p>
+            </div>
+          </div>
+        </div>
       </section>
-
-      {/* specific skill */}
-      <div className='bg-greenL rounded-xl flex justify-around p-3 mx-auto my-5 max-w-[1024px] lg:w-11/12 md:w-3/5 max-sm:overflow-x-scroll'>
-        <Image src={"/images/icon/services/React.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
-        <Image src={"/images/icon/services/Next.js.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
-        <Image src={"/images/icon/services/TailwindCSS.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
-        <Image src={"/images/icon/services/JavaScript.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
-        <Image src={"/images/icon/services/HTML5.svg"} width={128} height={128} alt='img' className='p-1 w-1/6 max-w-[86px]' />
-      </div>
       {/* <section className='mt-10 border-t border-greenL w-fit mx-auto'>
       <SkillsPage/>
       </section> */}

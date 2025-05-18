@@ -27,11 +27,6 @@ function Nav() {
     return () => window.removeEventListener('scroll', scrollhanddle)
   });
 
-  // Define the active class for the glowing effect
-  const activeClass =
-    "hover:cursor-pointer border-greenL lg:bg-greenD2 border-greenL italic";
-  const inactiveClass = "border-greenL hover:underline hover:cursor-pointer";
-
   return (
     <nav className="md:h-[10%] h-[48px] z-10 xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] md:bg-greenN/10 max-md:fixed">
       {/* LOGO */}
@@ -81,8 +76,7 @@ function Nav() {
       >
         <Link
           href="/"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[200px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
-             ${pathname == "/" ? activeClass : inactiveClass}`}
+          className={`flex justify-center p-5 max-lg:mx-auto w-[200px] space-x-5 max-lg:border-b-1 transform hover:scale-110 r`}
         >
           <Image
             src="/images/icon/nav/home.png"
@@ -93,9 +87,8 @@ function Nav() {
           <h2>Home</h2>
         </Link>
         <Link
-          href="/services"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[200px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
-           ${pathname == "/services" ? activeClass : inactiveClass}`}
+          href="#services"
+          className={`flex justify-center p-5 max-lg:mx-auto w-[200px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md`}
         >
           <Image
             src="/images/icon/nav/work.png"
@@ -107,8 +100,7 @@ function Nav() {
         </Link>
         <Link
           href="/contact"
-          className={`flex justify-center p-5 max-lg:mx-auto w-[200px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md
-           ${pathname == "/contact" ? activeClass : inactiveClass}`}>
+          className={`flex justify-center p-5 max-lg:mx-auto w-[200px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md`}>
           <Image
             src="/images/icon/nav/contact.png"
             width={32}

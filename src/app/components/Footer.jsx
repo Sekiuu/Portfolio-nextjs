@@ -4,7 +4,7 @@ import Link from "next/link";
 import { personal_data } from "../datas/data.js";
 function Footer() {
   return <footer className="bg-greenD1 border-t-2 border-greenL grid grid-cols-4 
-  max-lg:grid-cols-3 max-md:grid-cols-2 text-white py-5 md:px-10 max-md:gap-y-10">
+  max-lg:grid-cols-3 max-md:grid-cols-2 text-white py-5 md:px-10 max-md:gap-y-10 mt-[100px]">
     <div className="flex flex-col justify-center lg:col-span-2 max-sm:col-span-2 max-md:items-center">
       <Image
         alt="logo"
@@ -15,7 +15,7 @@ function Footer() {
       />
     </div>
 
-    <div className="flex md:justify-end justify-center max-md:col-span-2 max-md:items-center  max-sm:hidden">
+    <div className="flex md:justify-end justify-center max-md:col-span-2 max-md:items-center max-sm:hidden">
       <div className="flex flex-col items-center space-y-2 text-2xl">
         <h1>- NAVIGATION -</h1>
         <div className="flex flex-col space-y-2 text-greenD2">

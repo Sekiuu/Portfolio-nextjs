@@ -2,74 +2,78 @@ export const Features = [
     {
         title: 'Responsive Design',
         des: 'รองรับได้หลายอุปกรณ์ ทั้งมือถือ แท็บเล็ต และคอมพิวเตอร์',
-        img:''
+        img: ''
     },
     {
         title: 'Fast Loading',
         des: 'เนื่องจากใช้ Next.js ในการพัฒนาเว็บไซต์ ทำให้เว็บเร็วปานสายฟ้า',
-        img:''
+        img: ''
     },
     {
         title: 'Design To Webpage',
         des: 'แปลงไฟล์ .psd .ai และ Figma เป็น Webpage .jsx .html .css',
-        img:''
+        img: ''
     },
     {
         title: 'รองรับ SEO',
         des: 'ใส่ข้อมูล metadata ช่วยให้ google หาเจอได้ง่ายขึ้น',
-        img:''
+        img: ''
     },
     {
         title: 'Deploy ฟรี',
         des: 'Deploy ฟรีบน Vercel พร้อมใช้งานทันที',
-        img:''
+        img: ''
     },
     {
         title: 'เชื่อมต่อ Google Analytics',
-        des:'เชื่อมต่อ google analytics / search console ได้',
-        img:''
+        des: 'เชื่อมต่อ google analytics / search console ได้',
+        img: ''
     }
 ]
 export const Services_data = [
     {
-        id:1,
         title: 'Landing Page',
-        description_ful:'',
-        feature:['item','item','item'],
+        description_ful: 'บริการออกแบบ Landing Page สำหรับธุรกิจหรือโปรเจกต์ของคุณ ให้ดูมืออาชีพ น่าเชื่อถือ และพร้อมใช้งานทันที รองรับมือถือ โหลดไว และปรับแต่งได้ตามต้องการ',
+        serviceDetails: [
+            'Responsive Design รองรับทั้งคอมและมือถือ',
+            'ปรับแต่ง SEO ให้เว็บสำหรับ GoogleSearch',
+            'ใส่ลูกเล่น interactive ให้เว็บดูทันสมัย มีชีวิตชีวา',
+            'เพิ่ม webpage ได้สูงสุด 2 หน้า',
+            'รอ 2 - 4 วัน'
+        ],
         description: 'ออกแบบและสร้างหน้าเว็บหน้าเดียวที่ดูดี มีสไตล์ รองรับทุกหน้าจอ เหมาะกับโปรโมตสินค้า/บริการแบบสั้นๆ จบในหน้าเดียว',
         minCost: '1,000',
         maxCost: '2,000',
         img: '/images/icon/services/landing-page.png',
-        include:['item','item','item','item']
     },
     {
-        id:2,
         title: 'Personal Website',
-        description_ful:'',
-        feature:['item','item','item'],
+        description_ful: '',
+        serviceDetails: [
+            'Responsive รองรับทั้งคอม มือถือ และแท็บเล็ต',
+            'ปรับแต่ง SEO ให้เว็บสำหรับ GoogleSearch',
+            'ใส่ลูกเล่น interactive ให้เว็บดูทันสมัย มีชีวิตชีวา',
+            'เพิ่ม webpage ได้สูงสุด 3 หน้า',
+            'รอ 2 - 6 วัน'],
         description: 'เว็บส่วนตัวหรือบล็อกเขียนบทความ แสดงผลงาน หรือ สำหรับธุรกิจส่วนตัว หรือแนะนำตัวเอง สร้างด้วย Next.js รองรับ SEO และใช้งานง่าย',
         minCost: '1,000',
-        maxCost: '3,000',
+        maxCost: '5,000',
         img: '/images/icon/services/responsive-design.png'
     },
     {
-        id:3,
-        title: 'Convert Design to Webpage',
-        description_ful:'',
-        feature:['item','item','item'],
-        description: 'แปลงดีไซน์จาก Figma, XD หรือภาพตัวอย่าง ให้กลายเป็นหน้าเว็บจริง พร้อม responsive รองรับทุกอุปกรณ์',
+        title: 'Convert Design',
+        description_ful: '',
+        serviceDetails: [
+            'แปลงไฟล์ .psd .ai หรือFigma เป็น webpage',
+            'Responsive รองรับทั้งคอม มือถือ และแท็บเล็ต',
+            'จำกัดจำนวนหน้าไม่เกิน 2 หน้า',
+            'รอ 2 - 5 วัน'],
+        description: 'แปลงดีไซน์จาก Figma, .psd .ai หรือภาพตัวอย่าง ให้กลายเป็นหน้าเว็บจริง พร้อม responsive รองรับทุกอุปกรณ์',
         minCost: '1,000',
         maxCost: '3,000',
         img: '/images/icon/services/convert.png'
     },
 ];
-//   {
-//     title: 'Website for Business',
-//     description: 'เว็บไซต์สำหรับบริษัทหรือธุรกิจขนาดเล็ก เช่น บริษัทรับเหมา คลินิก ร้านอาหาร ประกอบด้วยหลายหน้า เช่น เกี่ยวกับเรา, บริการ, ติดต่อ ฯลฯ รองรับทุกหน้าจอ มีความน่าเชื่อถือ',
-//     minCost: '3,000',
-//     maxCost: '6,000',
-//   },
-// ];
 
 export const personal_data = {
     tel: '0929853209',

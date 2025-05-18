@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={`bg-zinc-800 ${kanit.className}`}>
+      <body className={`bg-dark1 ${kanit.className}`}>
         <Nav />
         {children}
         <Footer />
