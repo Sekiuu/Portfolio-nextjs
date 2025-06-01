@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { personal_data, Services_data } from '@/app/datas/data'
 import { useSearchParams } from 'next/navigation'
-function servicesInfo() {
+function ServiceInfo() {
   const params = useSearchParams()
   const service = Services_data[params.get('id')]
   return (
@@ -81,4 +81,4 @@ function servicesInfo() {
   )
 }
 
-export default servicesInfo
+export default ServiceInfo
