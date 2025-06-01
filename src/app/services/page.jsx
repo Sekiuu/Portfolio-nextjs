@@ -2,7 +2,8 @@
 import Image from 'next/image'
 import { personal_data, Services_data } from '@/app/datas/data'
 import { useSearchParams } from 'next/navigation'
-function servicesInfo() {
+
+function ServiceInfo() {
   const params = useSearchParams()
 const id = parseInt(params.get('id') ?? '', 10)
 const service = Services_data[id]
@@ -85,4 +86,4 @@ if (!service) return <p>ไม่พบบริการจ้า</p>
   )
 }
 
-export default servicesInfo
+export default ServiceInfo
