@@ -42,11 +42,11 @@ function servicesInfo() {
           {
             service.options.length > 0 ?
               <div className='bg-greenD1/20'>
-                <h1 className='text-2xl'>Option(ส่วนเสริม)</h1>
+                <h1 className='text-2xl'>Option{"(ส่วนเสริม)"}</h1>
                 <div className='w-fit mx-auto text-left list-none'>
                   {service.options.map((item, index) => (
                     <li key={index} className='text-base w-full'>
-                      {item} (บวกเพิ่ม)
+                      {item} {"(บวกเพิ่ม)"}
                     </li>
                   ))}
                 </div>
