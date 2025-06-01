@@ -15,7 +15,7 @@ function ServicesPage() {
             <h2 className='text-2xl mb-2'>{data.title}</h2>
             <p className='text-black/60 mb-2'>{data.description}</p>
 
-            <a href={`services/more?id=${data.id}`} className='underline hover:cursor-pointer'>
+            <a href={`services/more/${data.id}`} className='underline hover:cursor-pointer'>
               More
             </a>
           </div>

@@ -1,17 +1,24 @@
 'use client'
 import Image from 'next/image'
 import { personal_data, Services_data } from '@/app/datas/data'
-import { useSearchParams } from 'next/navigation'
+import { useParams } from 'next/navigation'
 import { useEffect, useState } from 'react';
 function ServiceInfo() {
-  const params = useSearchParams();
-  const [service,setService] = useState(null)
+  const params = useParams();
+  const [service, setService] = useState(null)
 
-  useEffect(()=>{
-    const id = parseInt(params.get('id') ?? '', 10)
+  useEffect(() => {
+    console.log(params)
+    const id = params.id
     setService(Services_data[id])
   })
-  if (!service) return <p>Loading</p>
+  if (!service) return (
+    <div className='w-full text-center items-center h-[720px]'>
+      <h1 className='text-6xl'>
+        Loading...
+      </h1>
+    </div>
+  )
 
   return (
     <section id='services' className="md:w-3/4 max-w-[768px] mx-auto py-10 text-center text-greenL">
