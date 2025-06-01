@@ -1,10 +1,14 @@
-"use client"
+'use client'
 import Image from 'next/image'
 import { personal_data, Services_data } from '@/app/datas/data'
 import { useSearchParams } from 'next/navigation'
 function ServiceInfo() {
-  const params = useSearchParams()
-  const service = Services_data[params.get('id')]
+  const params = useSearchParams();
+  const id = parseInt(params.get('id') ?? '', 10)
+  const service = Services_data[id]
+
+  if (!service) return <p>Loading</p>
+
   return (
     <section id='services' className="md:w-3/4 max-w-[768px] mx-auto py-10 text-center text-greenL">
       <h1 className="font-bold lg:text-6xl text-5xl my-5">{service.title}</h1>
