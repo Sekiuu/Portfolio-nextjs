@@ -40,19 +40,13 @@ export const Services_data = [
             'ปรับแต่ง SEO ให้เว็บสำหรับ GoogleSearch',
             'ใส่ลูกเล่น interactive ให้เว็บดูทันสมัย มีชีวิตชีวา',
             'เพิ่ม webpage ได้สูงสุด 2 หน้า',
-            'รอ 2 - 4 วัน'
         ],
-        serviceDetails_more: [
-            'Responsive Design รองรับทั้งคอมและมือถือ',
-            'ปรับแต่ง SEO ให้เว็บสำหรับ GoogleSearch',
-            'ใส่ลูกเล่น interactive ให้เว็บดูทันสมัย มีชีวิตชีวา',
-            'เพิ่ม webpage ได้สูงสุด 2 หน้า',
-            'รอ 2 - 4 วัน'
-        ],
+        servicePrices: "ราคาเริ่มต้น (ต่อหน้า) -879 บาท",
+        options: [],
+        time: "2-4 วัน",
         description: 'ออกแบบและสร้างหน้าเว็บหน้าเดียวที่ดูดี มีสไตล์ รองรับทุกหน้าจอ เหมาะกับโปรโมตสินค้า/บริการแบบสั้นๆ จบในหน้าเดียว',
-        minCost: '1,000',
-        maxCost: '2,000',
         img: '/images/icon/services/landing-page.png',
+        sample_img: ''
     },
     {
         id: 1,
@@ -62,12 +56,16 @@ export const Services_data = [
             'Responsive รองรับทั้งคอม มือถือ และแท็บเล็ต',
             'ปรับแต่ง SEO ให้เว็บสำหรับ GoogleSearch',
             'ใส่ลูกเล่น interactive ให้เว็บดูทันสมัย มีชีวิตชีวา',
-            'เพิ่ม webpage ได้สูงสุด 3 หน้า',
-            'รอ 2 - 6 วัน'],
+            'เพิ่ม webpage ได้สูงสุด 3 หน้า'],
+        servicePrices: "ราคาเริ่มต้น (ต่อหน้า) -789 บาท",
+        options: [
+            "Responsive Design รองรับหน้าจอ แท็บเล็ต : -349 บาท",
+            "Interactive/Animation UI 4 แบบขึ้นไป : -179 บาท"
+        ],
+        time: '2 - 6 วัน',
         description: 'เว็บส่วนตัวหรือบล็อกเขียนบทความ แสดงผลงาน หรือ สำหรับธุรกิจส่วนตัว หรือแนะนำตัวเอง สร้างด้วย Next.js รองรับ SEO และใช้งานง่าย',
-        minCost: '1,000',
-        maxCost: '5,000',
-        img: '/images/icon/services/responsive-design.png'
+        img: '/images/icon/services/responsive-design.png',
+        sample_img: ''
     },
     {
         id: 2,
@@ -76,12 +74,16 @@ export const Services_data = [
         serviceDetails: [
             'แปลงไฟล์ .psd .ai หรือFigma เป็น webpage',
             'Responsive รองรับทั้งคอม มือถือ และแท็บเล็ต',
-            'จำกัดจำนวนหน้าไม่เกิน 2 หน้า',
-            'รอ 2 - 5 วัน'],
+            'จำกัดจำนวนหน้าไม่เกิน 2 หน้า'],
+        servicePrices: "ราคาเริ่มต้น (ต่อหน้า) -459 บาท",
+        options: [
+            "Responsive Design รองรับหน้าจอ แท็บเล็ต/มือถือ (อย่างละ) : -319 บาท",
+            "Interactive/Animation UI 4 แบบขึ้นไป : -179 บาท"
+        ],
+        time: '2 - 5 วัน',
         description: 'แปลงดีไซน์จาก Figma, .psd .ai หรือภาพตัวอย่าง ให้กลายเป็นหน้าเว็บจริง พร้อม responsive รองรับทุกอุปกรณ์',
-        minCost: '1,000',
-        maxCost: '3,000',
-        img: '/images/icon/services/convert.png'
+        img: '/images/icon/services/convert.png',
+        sample_img: ''
     },
 ];
 
