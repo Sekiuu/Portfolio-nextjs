@@ -9,7 +9,7 @@ function Banner() {
                 alt="bg"
                 width={2560}
                 height={1248}
-                className="-z-40 absolute inset-0 blur-sm"
+                className="-z-40 absolute inset-0 blur-sm object-cover max-lg:aspect-square"
             />
             <div className="flex justify-between items-center text-center">
                 <div className="hover:cursor-default overflow-hidden md:space-y-10 max-md:pt-10">

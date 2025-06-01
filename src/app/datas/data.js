@@ -32,9 +32,17 @@ export const Features = [
 ]
 export const Services_data = [
     {
+        id: 0,
         title: 'Landing Page',
         description_ful: 'บริการออกแบบ Landing Page สำหรับธุรกิจหรือโปรเจกต์ของคุณ ให้ดูมืออาชีพ น่าเชื่อถือ และพร้อมใช้งานทันที รองรับมือถือ โหลดไว และปรับแต่งได้ตามต้องการ',
         serviceDetails: [
+            'Responsive Design รองรับทั้งคอมและมือถือ',
+            'ปรับแต่ง SEO ให้เว็บสำหรับ GoogleSearch',
+            'ใส่ลูกเล่น interactive ให้เว็บดูทันสมัย มีชีวิตชีวา',
+            'เพิ่ม webpage ได้สูงสุด 2 หน้า',
+            'รอ 2 - 4 วัน'
+        ],
+        serviceDetails_more: [
             'Responsive Design รองรับทั้งคอมและมือถือ',
             'ปรับแต่ง SEO ให้เว็บสำหรับ GoogleSearch',
             'ใส่ลูกเล่น interactive ให้เว็บดูทันสมัย มีชีวิตชีวา',
@@ -47,6 +55,7 @@ export const Services_data = [
         img: '/images/icon/services/landing-page.png',
     },
     {
+        id: 1,
         title: 'Personal Website',
         description_ful: '',
         serviceDetails: [
@@ -61,6 +70,7 @@ export const Services_data = [
         img: '/images/icon/services/responsive-design.png'
     },
     {
+        id: 2,
         title: 'Convert Design',
         description_ful: '',
         serviceDetails: [

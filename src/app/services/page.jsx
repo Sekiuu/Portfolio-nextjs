@@ -2,10 +2,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { Services_data } from '../datas/data'
-import { useState } from 'react'
 
 function ServicesPage() {
-  const [i, setIndex] = useState(null)
   return (
     <div className='md:w-full w-11/12 mx-auto max-md:pt-[20%] py-6'>
       <section className='lg:w-11/12 md:w-3/5 max-w-[1024px] grid lg:grid-cols-3 grid-cols-1 gap-5 mx-auto'>
@@ -17,14 +15,9 @@ function ServicesPage() {
             <h2 className='text-2xl mb-2'>{data.title}</h2>
             <p className='text-black/60 mb-2'>{data.description}</p>
 
-            <div className='underline hover:cursor-pointer' onClick={() => {
-              i == index ? setIndex(null) : setIndex(index)
-            }}>
-              {
-                i == index ? <>price : {data.minCost} - {data.maxCost}</> :
-                  <>More</>
-              }
-            </div>
+            <a href={`services/more?${data.id}`} className='underline hover:cursor-pointer'>
+              More
+            </a>
           </div>
         ))}
         {/* specific skill */}
