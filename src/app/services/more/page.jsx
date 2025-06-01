@@ -10,7 +10,7 @@ function ServiceInfo() {
   useEffect(()=>{
     const id = parseInt(params.get('id') ?? '', 10)
     setService(Services_data[id])
-  })
+  },params)
   if (!service) return <p>Loading</p>
 
   return (
