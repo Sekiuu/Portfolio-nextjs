@@ -19,7 +19,6 @@ function ServiceInfo() {
       </h1>
     </div>
   )
-
   return (
     <section id='services' className="md:w-3/4 max-w-[768px] mx-auto py-10 text-center text-greenL">
       <h1 className="font-bold lg:text-6xl text-5xl my-5">{service.title}</h1>
