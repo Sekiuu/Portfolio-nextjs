@@ -23,13 +23,13 @@ function ServiceInfo() {
     <section id='services' className="md:w-3/4 max-w-[768px] mx-auto py-10 text-center text-greenL">
       <h1 className="font-bold lg:text-6xl text-5xl my-5">{service.title}</h1>
       <hr className="w-3/5 mx-auto mb-5 rounded-md border-2 border-gray-500" />
-      <div className="flex flex-col md:p-5 p-2 space-y-10 rounded-xl border">
+      <div className="flex flex-col md:p-5 p-2 md:space-y-10 space-y-5 rounded-xl border">
         <Image
           src={'/images/icon/no_img.svg'}
           alt="img"
           width={1024}
           height={720}
-          className="bg-white object-cover rounded-md max-w-[620px] mx-auto aspect-video"
+          className="bg-white object-cover rounded-md max-w-[620px] w-full mx-auto md:aspect-video"
         />
         {/* service content */}
         <div>
