@@ -3,7 +3,8 @@ import Image from 'next/image'
 import { personal_data, Services_data } from '@/app/datas/data'
 import { useSearchParams } from 'next/navigation'
 function servicesInfo() {
-  const service = Services_data[useSearchParams().get('id')]
+  const params = useSearchParams()
+  const service = Services_data[params.get('id')]
   return (
     <section id='services' className="md:w-3/4 max-w-[768px] mx-auto py-10 text-center text-greenL">
       <h1 className="font-bold lg:text-6xl text-5xl my-5">{service.title}</h1>
@@ -55,13 +56,13 @@ function servicesInfo() {
         {/* card footer */}
         <div className='flex w-full justify-around'>
           <div className='bg-greenL/10 text-2xl flex space-x-5 justify-center items-center py-2 px-5 w-fit rounded-lg'>
-            <Image src={'/images/icon/time-svgrepo-com.svg'} alt='time' width={46} height={46}
+            <Image src={'/images/icon/time-svgrepo-com.svg'} alt='previous' width={46} height={46}
               className='bg-white p-2 rounded-full' />
             <p>{service.time}</p>
           </div>
           <a href={`tel:${personal_data.tel}`}
             className='bg-greenN text-2xl flex space-x-5 justify-center items-center py-2 px-5 rounded-lg'>
-            <Image src={'/images/icon/calling.png'} alt='time' width={46} height={46}
+            <Image src={'/images/icon/calling.png'} alt='next' width={46} height={46}
               className='bg-white p-2 rounded-full' />
             <p>โทรเลย</p>
           </a>
