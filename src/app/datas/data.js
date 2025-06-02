@@ -34,35 +34,34 @@ export const Services_data = [
     {
         id: 0,
         title: 'Landing Page',
-        description_ful: 'บริการออกแบบ Landing Page สำหรับธุรกิจหรือโปรเจกต์ของคุณ ให้ดูมืออาชีพ น่าเชื่อถือ และพร้อมใช้งานทันที รองรับมือถือ โหลดไว และปรับแต่งได้ตามต้องการ',
+        description_ful: 'บริการออกแบบ Landing Page(หน้าเดียว) สำหรับธุรกิจหรือโปรเจกต์ของคุณ ให้ดูมืออาชีพ น่าเชื่อถือ และพร้อมใช้งานทันที รองรับมือถือ โหลดไว และปรับแต่งได้ตามต้องการ',
         serviceDetails: [
             'Responsive Design รองรับทั้งคอมและมือถือ',
             'ปรับแต่ง SEO ให้เว็บสำหรับ GoogleSearch',
             'ใส่ลูกเล่น interactive ให้เว็บดูทันสมัย มีชีวิตชีวา',
-            'เพิ่ม webpage ได้สูงสุด 2 หน้า',
         ],
-        servicePrices: "ราคาเริ่มต้น (ต่อหน้า) -879 บาท",
+        servicePrices: "ราคาเริ่มต้น -1129 บาท",
         options: [],
-        time: "3-5 วัน",
+        time: "4-7 วัน",
         description: 'ออกแบบและสร้างหน้าเว็บหน้าเดียวที่ดูดี มีสไตล์ รองรับทุกหน้าจอ เหมาะกับโปรโมตสินค้า/บริการแบบสั้นๆ จบในหน้าเดียว',
         img: '/images/icon/services/landing-page.png',
         sample_img: ['/images/works/landingPage_2.png','/images/works/landing_page.png']
     },
     {
         id: 1,
-        title: 'Basics Website',
+        title: 'Normal Website',
         description_ful: '',
         serviceDetails: [
             'Responsive รองรับทั้งคอม มือถือ และแท็บเล็ต',
             'ปรับแต่ง SEO ให้เว็บสำหรับ GoogleSearch',
             'ใส่ลูกเล่น interactive ให้เว็บดูทันสมัย มีชีวิตชีวา',
             'เพิ่ม webpage ได้สูงสุด 3 หน้า'],
-        servicePrices: "ราคาเริ่มต้น (ต่อหน้า) -789 บาท",
+        servicePrices: "ราคาเริ่มต้น (ต่อหน้า) -879 บาท",
         options: [
-            "Responsive Design รองรับหน้าจอ แท็บเล็ต : -349 บาท",
+            "Responsive Design รองรับหน้าจอ มือถือ : -349 บาท",
             "Interactive/Animation UI 4 แบบขึ้นไป : -179 บาท"
         ],
-        time: '4 - 8 วัน',
+        time: '7-12 วัน',
         description: 'เว็บส่วนตัวหรือบล็อกเขียนบทความ แสดงผลงาน หรือ สำหรับธุรกิจส่วนตัว หรือแนะนำตัวเอง สร้างด้วย Next.js รองรับ SEO และใช้งานง่าย',
         img: '/images/icon/services/web-page.png',
         sample_img: ['/images/works/web-page-design.png','/images/works/web-page-lg.png',
@@ -83,7 +82,7 @@ export const Services_data = [
             "Responsive Design รองรับหน้าจอ แท็บเล็ต/มือถือ (อย่างละ) : -319 บาท",
             "Interactive/Animation UI 4 แบบขึ้นไป : -179 บาท"
         ],
-        time: '3 - 5 วัน',
+        time: '5-7 วัน',
         description: 'แปลงดีไซน์จาก Figma, .psd .ai หรือภาพตัวอย่าง ให้กลายเป็นหน้าเว็บจริง พร้อม responsive รองรับทุกอุปกรณ์',
         img: '/images/icon/services/convert.png',
         sample_img: []

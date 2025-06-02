@@ -93,6 +93,12 @@ function ServiceInfo() {
                   </div>
                 </div> : ""
             }
+            <div className='text-greenN bg-white/50 text-xls'>
+              แก้ไขได้ฟรี 15 วันหลังได้รับมอบงาน
+            </div>
+            <p className='text-red-700/75'>
+              **ราคาอาจเพิ่มขึ้นตามรายละเอียดและความซับซ้อนของงาน**
+            </p>
           </div>
           {/* card footer */}
           <div className='flex w-full justify-around'>
