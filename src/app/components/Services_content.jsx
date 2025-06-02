@@ -28,7 +28,7 @@ function ServicesContent() {
                     </div>
                 </div>
                 {/* service nav */}
-                <div className="flex w-full p-2 justify-around col-span-2 max-h-[128px]
+                <div className="flex w-full p-2 justify-around col-span-2 max-h-[128px] max-lg:order-first
                     transition-all bg-greenL rounded-md shadow-md shadow-greenL2/50">
                     {Services_data.map((item, index) => (
                         <Image key={index}
