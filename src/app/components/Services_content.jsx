@@ -42,7 +42,7 @@ function ServicesContent() {
                     ))}
                     <a className="hover:cursor-pointer p-2 rounded-full hover:shadow-xl  hover:shadow-greenN/50
                             shadow-md shadow-darksky/50 text-dark2 flex justify-center items-center w-[64px]"
-                        href="/services"
+                        href={`/services/${service.id}`}
                     >
                         <h1>More</h1>
                     </a>
