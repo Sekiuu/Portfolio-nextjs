@@ -31,8 +31,8 @@ function FeatureCard() {
     return (
         <>
             {/* features */}
-            {featuresCard(6, 'max-sm:hidden grid grid-cols-3 max-sm:grid-cols-2 max-sm:hidden')}
-            {featuresCard(4, 'max-sm:hidden grid grid-cols-2 sm:hidden')}
+            {featuresCard(6, 'max-sm:hidden grid grid-cols-3 max-sm:grid-cols-2')}
+            {featuresCard(4, 'grid grid-cols-2 sm:hidden')}
         </>
     )
 }
