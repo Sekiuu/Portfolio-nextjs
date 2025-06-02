@@ -84,7 +84,7 @@ export const Services_data = [
         ],
         time: '5-7 วัน',
         description: 'แปลงดีไซน์จาก Figma, .psd .ai หรือภาพตัวอย่าง ให้กลายเป็นหน้าเว็บจริง พร้อม responsive รองรับทุกอุปกรณ์',
-        img: '/images/icon/services/convert.png',
+        img: '/images/icon/services/convert-design.png',
         sample_img: []
     },
 ];
