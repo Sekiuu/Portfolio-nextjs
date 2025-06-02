@@ -2,32 +2,32 @@ export const Features = [
     {
         title: 'Responsive Design',
         des: 'รองรับได้หลายอุปกรณ์ ทั้งมือถือ แท็บเล็ต และคอมพิวเตอร์',
-        img: ''
-    },
-    {
-        title: 'Fast Loading',
-        des: 'เนื่องจากใช้ Next.js ในการพัฒนาเว็บไซต์ ทำให้เว็บเร็วปานสายฟ้า',
-        img: ''
-    },
-    {
-        title: 'Design To Webpage',
-        des: 'แปลงไฟล์ .psd .ai และ Figma เป็น Webpage .jsx .html .css',
-        img: ''
+        img: '/images/icon/feature/responsive.png'
     },
     {
         title: 'รองรับ SEO',
         des: 'ใส่ข้อมูล metadata ช่วยให้ google หาเจอได้ง่ายขึ้น',
-        img: ''
+        img: '/images/icon/feature/seo.png'
     },
     {
         title: 'Deploy ฟรี',
         des: 'Deploy ฟรีบน Vercel พร้อมใช้งานทันที',
-        img: ''
+        img: '/images/icon/feature/launch.png'
     },
     {
-        title: 'เชื่อมต่อ Google Analytics',
-        des: 'เชื่อมต่อ google analytics / search console ได้',
-        img: ''
+        title: 'Fast Loading',
+        des: 'เนื่องจากใช้ Next.js ในการพัฒนาเว็บไซต์ ทำให้เว็บเร็วปานสายฟ้า',
+        img: '/images/icon/feature/fast.png'
+    },
+    {
+        title: 'Design To Webpage',
+        des: 'แปลงไฟล์ .psd .ai และ Figma เป็น Webpage .jsx .html .css',
+        img: '/images/icon/feature/convert.png'
+    },
+    {
+        title: 'Interactive UI',
+        des: 'ใส่ Animation/Interactive UI เพื่อให้เว็บดูน่าสนใจมากขึ้น',
+        img: '/images/icon/feature/interaction.png'
     }
 ]
 export const Services_data = [
@@ -43,14 +43,14 @@ export const Services_data = [
         ],
         servicePrices: "ราคาเริ่มต้น (ต่อหน้า) -879 บาท",
         options: [],
-        time: "2-4 วัน",
+        time: "3-5 วัน",
         description: 'ออกแบบและสร้างหน้าเว็บหน้าเดียวที่ดูดี มีสไตล์ รองรับทุกหน้าจอ เหมาะกับโปรโมตสินค้า/บริการแบบสั้นๆ จบในหน้าเดียว',
         img: '/images/icon/services/landing-page.png',
-        sample_img: ''
+        sample_img: ['/images/works/landingPage_2.png','/images/works/landing_page.png']
     },
     {
         id: 1,
-        title: 'Personal Website',
+        title: 'Basics Website',
         description_ful: '',
         serviceDetails: [
             'Responsive รองรับทั้งคอม มือถือ และแท็บเล็ต',
@@ -62,10 +62,13 @@ export const Services_data = [
             "Responsive Design รองรับหน้าจอ แท็บเล็ต : -349 บาท",
             "Interactive/Animation UI 4 แบบขึ้นไป : -179 บาท"
         ],
-        time: '2 - 6 วัน',
+        time: '4 - 8 วัน',
         description: 'เว็บส่วนตัวหรือบล็อกเขียนบทความ แสดงผลงาน หรือ สำหรับธุรกิจส่วนตัว หรือแนะนำตัวเอง สร้างด้วย Next.js รองรับ SEO และใช้งานง่าย',
-        img: '/images/icon/services/responsive-design.png',
-        sample_img: ''
+        img: '/images/icon/services/web-page.png',
+        sample_img: ['/images/works/web-page-design.png','/images/works/web-page-lg.png',
+            '/images/works/web-page-sm.png','/images/works/web-page1.jpeg','/images/works/web-page2.jpeg',
+            '/images/works/web-page3.jpeg','/images/works/web-page4.jpeg'
+        ]
     },
     {
         id: 2,
@@ -80,10 +83,10 @@ export const Services_data = [
             "Responsive Design รองรับหน้าจอ แท็บเล็ต/มือถือ (อย่างละ) : -319 บาท",
             "Interactive/Animation UI 4 แบบขึ้นไป : -179 บาท"
         ],
-        time: '2 - 5 วัน',
+        time: '3 - 5 วัน',
         description: 'แปลงดีไซน์จาก Figma, .psd .ai หรือภาพตัวอย่าง ให้กลายเป็นหน้าเว็บจริง พร้อม responsive รองรับทุกอุปกรณ์',
         img: '/images/icon/services/convert.png',
-        sample_img: ''
+        sample_img: []
     },
 ];
 

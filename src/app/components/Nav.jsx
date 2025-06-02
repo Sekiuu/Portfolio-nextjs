@@ -28,7 +28,8 @@ function Nav() {
   });
 
   return (
-    <nav className="md:h-[10%] h-[48px] z-10 xl:text-2xl text-xl flex text-greenL w-full justify-between items-center transition-all duration-[0.5s] md:bg-greenN/10 max-md:fixed">
+    <nav className="md:h-[10%] h-[48px] z-10 xl:text-2xl text-xl flex text-greenL w-full
+     justify-between items-center transition-all duration-[0.5s] md:bg-greenN/10 max-md:fixed max-md:top-0">
       {/* LOGO */}
       <div 
       className={`flex items-end space-x-3 xl:mx-[5%] sm:mx-5 my-auto h-[90%] transition-all max-lg:transform ${showLogo ? 'translate-y-0' : '-translate-y-[64px]'}`}>
