@@ -86,7 +86,7 @@ function ServiceInfo() {
                   <h1 className='text-2xl'>Option{"(ส่วนเสริม)"}</h1>
                   <div className='w-fit mx-auto text-left list-none'>
                     {service.options.map((item, index) => (
-                      <li key={index} className='text-base w-full'>
+                      <li key={index} className='max-md:text-sm text-base w-full'>
                         {item} {"(บวกเพิ่ม)"}
                       </li>
                     ))}
