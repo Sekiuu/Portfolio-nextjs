@@ -1,7 +1,14 @@
 import "./globals.css";
+import { Kanit } from "next/font/google";
+const kanit = Kanit({
+  weight:"300",
+  subsets:['latin','thai']
+})
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import kanit from "./ThaiFont/Kanit";
+
+
+
 export const metadata = {
   title: 'รับทำเว็บไซต์ Landing Page และ Portfolio | mdev',
   description: 'บริการออกแบบและพัฒนาเว็บไซต์ด้วย React, Next.js, Tailwind CSS ครบวงจร ทั้ง Landing Page, เว็บไซต์ส่วนตัว และเว็บบริษัท',
