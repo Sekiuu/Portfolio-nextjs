@@ -6,6 +6,7 @@ const kanit = Kanit({
 })
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 
@@ -19,18 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2T1Q72BKR3"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-               window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2T1Q72BKR3');
-            `,
-          }}
-        />
+        <GoogleAnalytics gaId="G-2T1Q72BKR3"></GoogleAnalytics>
       </head>
       <body className={`bg-dark1 ${kanit.className}`}>
         <Nav />

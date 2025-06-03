@@ -11,7 +11,7 @@ function ServiceInfo() {
     console.log(params)
     const id = params.id
     setService(Services_data[id])
-  })
+  },[service,params])
   if (!service) return (
     <div className='w-full text-center items-center h-[720px] flex justify-center'>
       <h1 className='text-6xl'>
