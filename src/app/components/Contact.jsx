@@ -3,7 +3,7 @@ import Image from "next/image";
 import { personal_data } from "../datas/data.js";
 function ContactPage() {
   return (
-    <div className="py-[120px] text-white xl:h">
+    <div className="py-[120px] text-white xl:h" id="contact">
       <h1 className="lg:text-8xl text-4xl mb-[0.2em] mx-auto w-fit">
         ข้อมูลการติดต่อ
       </h1>

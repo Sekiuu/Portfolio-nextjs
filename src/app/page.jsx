@@ -1,7 +1,7 @@
 import FeatureCard from "./components/FeatureCard.jsx";
 import ServicesContent from "./components/Services_content.jsx";
 import Banner from "./components/Banner.jsx";
-
+import Contact from "./components/Contact.jsx";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
         <FeatureCard />
         <ServicesContent />
       </div>
+      <Contact/>
     </>
   );
 }

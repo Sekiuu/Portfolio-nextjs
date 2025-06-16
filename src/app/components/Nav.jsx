@@ -84,6 +84,7 @@ function Nav() {
             width={32}
             height={32}
             className="object-cover aspect-square"
+            alt="img"
           />
           <h2>Home</h2>
         </Link>
@@ -96,17 +97,19 @@ function Nav() {
             width={32}
             height={32}
             className="object-cover aspect-square"
+            alt="img"
           />
           <h2>Services</h2>
         </Link>
         <Link
-          href="/contact"
+          href="#contact"
           className={`flex justify-center p-5 max-lg:mx-auto w-[200px] space-x-5 max-lg:border-b-1 transform hover:scale-110 rounded-md`}>
           <Image
             src="/images/icon/nav/contact.png"
             width={32}
             height={32}
             className="object-cover aspect-square"
+            alt="img"
           />
           <h2>Contact</h2>
         </Link>

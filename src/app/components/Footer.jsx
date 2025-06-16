@@ -4,15 +4,16 @@ import Link from "next/link";
 import { personal_data } from "../datas/data.js";
 function Footer() {
   return <footer className="bg-greenD1 border-t-2 border-greenL grid grid-cols-4 
-  max-lg:grid-cols-3 max-md:grid-cols-2 text-white py-5 md:px-10 max-md:gap-y-10 md:mt-[100px] max-md:h-[720px]">
-    <div className="flex flex-col justify-center lg:col-span-2 max-sm:col-span-2 max-md:items-center">
+  max-lg:grid-cols-3 max-md:grid-cols-2 text-white py-5 md:px-10 max-md:gap-y-3 md:mt-[100px] max-md:h-[720px]">
+    <div className="flex flex-col justify-center lg:col-span-2 max-sm:col-span-2 max-md:items-center max-sm:order-last">
       <Image
         alt="logo"
         src={"/images/MUNIN_logo.svg"}
         width={128}
         height={128}
-        className="my-2 max-sm:hidden"
+        className="my-2"
       />
+          <p className="col-span-2 text-[1pm] max-sm:text-center sm:hidden"> &#169; created by m-dev 2024</p>
     </div>
 
     <div className="flex md:justify-end justify-center max-md:col-span-2 max-md:items-center max-sm:hidden">
@@ -25,12 +26,12 @@ function Footer() {
             <h2>Home</h2>
           </Link>
           <Link
-            href="/services"
+            href="#services"
             className="hover:text-greenL flex space-x-5 items-center">
             <h2>Services</h2>
           </Link>
           <Link
-            href="/contact"
+            href="#contact"
             className="hover:text-greenL flex space-x-5 items-center">
             <h2>Contact</h2>
           </Link>
@@ -38,9 +39,9 @@ function Footer() {
       </div>
     </div>
     <div className="flex md:justify-end justify-center max-md:col-span-2 max-md:items-center">
-        <div className="grid grid-cols-2 gap-2 mx-10 text-2xl">
+        <div className="grid grid-cols-2 gap-5 mx-10 md:text-2xl text-3xl">
           <div className="col-span-2 flex flex-col justify-center">
-            <h1 className="mb-2"> - CONTACT - </h1>
+            <h1 className="mb-2 mx-auto"> - CONTACT - </h1>
           </div>
           <a href={`tel:${personal_data.tel}`}>
             <Image
@@ -48,7 +49,7 @@ function Footer() {
               alt="my picture"
               width={64}
               height={64}
-              className="w-[42px] mx-auto"
+              className="md:w-[42px] mx-auto"
             />
           </a>
           <a href={`mailto:${personal_data.gmail}`}>
@@ -57,7 +58,7 @@ function Footer() {
               alt="my picture"
               width={64}
               height={64}
-              className="w-[42px] mx-auto"
+              className="md:w-[42px] mx-auto"
             />
           </a>
           <a href={personal_data.git} target="blank">
@@ -66,7 +67,7 @@ function Footer() {
               alt="my picture"
               width={64}
               height={64}
-              className="w-[42px] mx-auto"
+              className="md:w-[42px] mx-auto"
             />
           </a>
           <a href={personal_data.ig} target="blank">
@@ -75,13 +76,13 @@ function Footer() {
               alt="my picture"
               width={64}
               height={64}
-              className="w-[42px] mx-auto"
+              className="md:w-[42px] mx-auto"
             />
           </a>
         </div>
       </div>
 
-    <p className="grid col-span-2 max-md:py-10 text-[1pm] max-sm:text-center"> &#169; created by m-dev 2024</p>
+    <p className="col-span-2 text-[1pm] max-sm:text-center max-sm:hidden"> &#169; created by m-dev 2024</p>
   </footer>;
 }
 
